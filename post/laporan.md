@@ -1,4 +1,4 @@
-# Laporan Keuangan Triwulan Q3 2026
+# Laporan Keuangan Lapak Saparan
 
 **Periode:** Juni - Juli 2026  
 **Status:** ✅ Diaudit  
@@ -51,14 +51,16 @@ Data sementara untuk keuangan lapak.
 | 37 | 45000 |  |
 |  | 4720000 | 1900000 |
 | Total | 6620000 |  |
-| Ket: Jumlah di atas sudah Di potong 50.000 untuk keperluan riset Ai, buat tabel otomatis. ngopi☕, Iklan, dll |  |  |
+
+
+> Ket: Jumlah di atas sudah Di potong 50.000 untuk keperluan riset Ai, buat tabel otomatis. ngopi☕, Iklan, dll 
 
 
 
 ## 📝 Catatan Penting
 
-1. sebagian Uang masuk ke Rekening dan Tunai
+1. sebagian Uang masuk dari Online dan Tunai
 2. Data masih belum final
-3. Sudah terpontong 50k. 
+3. Sudah terpontong 50k.
 
 Data bisa di cek di github. riwayat edit dll. data di ubah secara transparan dan terbuka. siapapun dapat melihat riwayat pengeditan.
