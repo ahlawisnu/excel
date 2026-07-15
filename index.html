@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Data Keuangan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-app-bar">
+        <div class="container">
+            <span class="material-symbols-rounded logo-icon">table_chart</span>
+            <h1>Laporan Keuangan</h1>
+            <button id="theme-toggle" class="icon-button" aria-label="Toggle Dark Mode">
+                <span class="material-symbols-rounded">dark_mode</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="markdown-body" id="markdown-content">
+            <div class="loading-state">
+                <span class="material-symbols-rounded spinning">progress_activity</span>
+                <p>Memuat laporan...</p>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Laporan Data Keuangan. Dibuat dengan ❤️.</p>
+            <div class="footer-links">
+                <a href="https://github.com/ahlawisnu" target="_blank" rel="noopener noreferrer">
+                    <span class="material-symbols-rounded">code</span> GitHub @ahlawisnu
+                </a>
+                <a href="https://ahlawisnu.github.io" target="_blank" rel="noopener noreferrer">
+                    <span class="material-symbols-rounded">home</span> ahlawisnu.github.io
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Library untuk parsing Markdown dan sanitasi HTML -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.6/dist/purify.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
