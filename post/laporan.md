@@ -1,35 +1,64 @@
 # Laporan Keuangan Triwulan Q3 2026
 
-**Periode:** Juli - September 2026  
+**Periode:** Juni - Juli 2026  
 **Status:** ✅ Diaudit  
-**Penyusun:** Tim Keuangan
+**Penyusun:** Tim Keuangan Lapak
 
 ## 📊 Ringkasan Eksekutif
 
-Pada triwulan ini, perusahaan mengalami pertumbuhan pendapatan sebesar **15%** dibandingkan periode yang sama tahun lalu. Pengoperasian berjalan efisien dengan penghematan biaya logistik sebesar 8%.
-
-> "Kinerja keuangan yang solid menjadi fondasi kuat untuk ekspansi di tahun depan." — Direktur Keuangan
+Data sementara untuk keuangan lapak. 
 
 ## 💰 Tabel Arus Kas
 
-| Kategori | Jumlah (IDR) | Persentase | Status |
-| :--- | :--- | :--- | :--- |
-| **Pemasukan** | Rp 1.500.000.000 | 60% | 🟢 Surplus |
-| **Operasional** | Rp 750.000.000 | 30% | 🟡 Normal |
-| **Pajak** | Rp 150.000.000 | 6% | 🔵 Lunas |
-| **Laba Bersih** | Rp 600.000.000 | 24% | 🟢 Target Tercapai |
+| No.  | Uang masuk dari Rekening | Uang masuk secara Tunai |
+| --- | --- | --- |
+| 1 | 120000 | 1900000 |
+| 2 | 150000 |  |
+| 3 | 150000 |  |
+| 4 | 120000 |  |
+| 5 | 105000 |  |
+| 6 | 180000 |  |
+| 7 | 45000 |  |
+| 8 | 180000 |  |
+| 9 | 45000 |  |
+| 10 | 75000 |  |
+| 11 | 90000 |  |
+| 12 | 150000 |  |
+| 13 | 100000 |  |
+| 14 | 90000 |  |
+| 15 | 360000 |  |
+| 16 | 150000 |  |
+| 17 | 60000 |  |
+| 18 | 90000 |  |
+| 19 | 30000 |  |
+| 20 | 90000 |  |
+| 21 | 60000 |  |
+| 22 | 90000 |  |
+| 23 | 180000 |  |
+| 24 | 90000 |  |
+| 25 | 90000 |  |
+| 26 | 135000 |  |
+| 27 | 150000 |  |
+| 28 | 30000 |  |
+| 29 | 210000 |  |
+| 30 | 285000 |  |
+| 31 | 90000 |  |
+| 32 | 150000 |  |
+| 33 | 180000 |  |
+| 34 | 360000 |  |
+| 35 | 90000 |  |
+| 36 | 105000 |  |
+| 37 | 45000 |  |
+|  | 4720000 | 1900000 |
+| Total | 6620000 |  |
+| Ket: Jumlah di atas sudah Di potong 50.000 untuk keperluan riset Ai, buat tabel otomatis. ngopi☕, Iklan, dll |  |  |
+
+
 
 ## 📝 Catatan Penting
 
-1. Semua transaksi di atas telah diverifikasi oleh sistem akuntansi.
-2. Aset tetap mengalami depresiasi sesuai standar PSAK.
-3. Investasi pada instrumen saham memberikan return positif.
+1. sebagian Uang masuk ke Rekening dan Tunai
+2. Data masih belum final
+3. Sudah terpontong 50k. 
 
-### Contoh Kode / Rumus
-Jika Anda perlu menampilkan rumus keuangan:
-```excel
-=NETTO(Pemasukan, Operasional, Pajak)
-```
-
----
-*Dokumen ini diperbarui secara otomatis melalui sistem versi GitHub.*
+Data bisa di cek di github. riwayat edit dll. data di ubah secara transparan dan terbuka. siapapun dapat melihat riwayat pengeditan.
