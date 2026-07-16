@@ -24,12 +24,19 @@ function updateThemeIcon(theme) {
     iconSpan.textContent = theme === 'dark' ? 'light_mode' : 'dark_mode';
 }
 
-// Fetch dan Render Markdown
+// Fetch dan Render Markdown dengan Cache Busting
 async function loadMarkdown() {
     const contentDiv = document.getElementById('markdown-content');
     
     try {
-        const response = await fetch(MARKDOWN_FILE);
+        // 🔥 CACHE BUSTING: Menambahkan timestamp unik agar browser tidak mengambil dari cache
+        const cacheBuster = `?t=${Date.now()}`;
+        const urlWithCacheBuster = MARKDOWN_FILE + cacheBuster;
+        
+        const response = await fetch(urlWithCacheBuster, {
+            // Memaksa browser untuk tidak menggunakan cache jaringan sama sekali
+            cache: 'no-cache' 
+        });
         
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -57,9 +64,6 @@ async function loadMarkdown() {
                 <span class="material-symbols-rounded" style="font-size: 48px;">warning</span>
                 <h2>Laporan Belum Tersedia</h2>
                 <p>Silakan buat atau perbarui file di path: <code>${MARKDOWN_FILE}</code></p>
-                <p style="margin-top: 16px; font-size: 14px; color: var(--md-on-surface-variant);">
-                    Contoh format: Tambahkan header, tabel, dan data keuangan Anda di sini.
-                </p>
             </div>
         `;
     }
