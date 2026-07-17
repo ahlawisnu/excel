@@ -49,8 +49,9 @@ Data sementara untuk keuangan lapak.
 | 35 | 90000 |  |
 | 36 | 105000 |  |
 | 37 | 45000 |  |
-|  | 4720000 | 1900000 |
-| Total | 6620000 |  |
+| Jumlah | 4720000 | 1900000 |
+|  |  |  |
+| Total | 6620000  |  |
 
 
 > Ket: Jumlah di atas sudah Di potong 50.000 untuk keperluan riset Ai, buat tabel otomatis. ngopi☕, Iklan, dll 
@@ -59,7 +60,7 @@ Data sementara untuk keuangan lapak.
 
 ## 📝 Catatan Penting
 
-1. sebagian Uang masuk dari Online dan Tunai
+1. Sebagian Uang masuk dari Online dan Tunai
 2. Data masih belum final
 3. Sudah terpontong 50k.
 
